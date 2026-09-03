@@ -1,0 +1,6 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  create:
+    steps:
+      - run mkdir test
