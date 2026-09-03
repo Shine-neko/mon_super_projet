@@ -23,6 +23,5 @@ lint:
 
 test:
   stage: test
-  depends_on: [lint]
   script:
     - pytest -v
