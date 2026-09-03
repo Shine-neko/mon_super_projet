@@ -2,5 +2,6 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
   create:
+    runs-on: ubuntu-latest
     steps:
       - run mkdir test
